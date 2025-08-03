@@ -76,8 +76,8 @@ export function Location() {
             <span className="text-primary"> Crispy Delight</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            With multiple locations across the city, there's always a Crispy Delight nearby. Find
-            your closest outlet and enjoy our signature fried chicken.
+            With multiple locations across the city, there&apos;s always a Crispy Delight nearby.
+            Find your closest outlet and enjoy our signature fried chicken.
           </p>
         </div>
 
@@ -186,10 +186,12 @@ export function Location() {
             {/* Store Locator CTA */}
             <div className="mt-8 p-6 bg-secondary/20 rounded-lg border border-primary/10">
               <div className="text-center space-y-3">
-                <h3 className="font-semibold text-foreground">Can't find a location near you?</h3>
+                <h3 className="font-semibold text-foreground">
+                  Can&apos;t find a location near you?
+                </h3>
                 <p className="text-sm text-muted-foreground">
-                  We're constantly expanding! Enter your zip code to see if we're coming to your
-                  area soon.
+                  We&apos;re constantly expanding! Enter your zip code to see if we&apos;re coming
+                  to your area soon.
                 </p>
                 <div className="flex gap-2 max-w-sm mx-auto">
                   <input
