@@ -7,7 +7,7 @@ const features = [
   "11 herbs and spices blend perfected over decades",
   "Cooked to order for maximum freshness",
   "Family recipes passed down through generations",
-  "Zero artificial preservatives or additives"
+  "Zero artificial preservatives or additives",
 ];
 
 export function About() {
@@ -19,18 +19,18 @@ export function About() {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="text-3xl sm:text-4xl font-bold text-foreground">
-                Crafted with Passion, 
+                Crafted with Passion,
                 <span className="text-primary"> Served with Love</span>
               </h2>
               <p className="text-lg text-muted-foreground">
-                Since 1985, Crispy Delight has been serving the community with the finest 
-                fried chicken. Our commitment to quality and authentic flavors has made us 
-                a beloved local institution.
+                Since 1985, Crispy Delight has been serving the community with the finest fried
+                chicken. Our commitment to quality and authentic flavors has made us a beloved local
+                institution.
               </p>
               <p className="text-muted-foreground">
-                Every piece of chicken is carefully selected, hand-battered with our signature 
-                blend of herbs and spices, and cooked to golden perfection. We believe that 
-                great food brings people together, and we're honored to be part of your special moments.
+                Every piece of chicken is carefully selected, hand-battered with our signature blend
+                of herbs and spices, and cooked to golden perfection. We believe that great food
+                brings people together, and we&apos;re honored to be part of your special moments.
               </p>
             </div>
 

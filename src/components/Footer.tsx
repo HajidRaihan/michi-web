@@ -14,8 +14,8 @@ export function Footer() {
               <span className="text-xl font-bold text-primary">Crispy Delight</span>
             </div>
             <p className="text-muted-foreground">
-              Serving the community with the finest fried chicken since 1985. 
-              Made with love, served with pride.
+              Serving the community with the finest fried chicken since 1985. Made with love, served
+              with pride.
             </p>
             <div className="flex space-x-4">
               <Facebook className="w-5 h-5 text-muted-foreground hover:text-primary cursor-pointer transition-colors" />
@@ -39,8 +39,10 @@ export function Footer() {
               <div className="flex items-start space-x-3">
                 <MapPin className="w-4 h-4 text-primary mt-1" />
                 <span className="text-muted-foreground">
-                  123 Main Street<br />
-                  Downtown District<br />
+                  123 Main Street
+                  <br />
+                  Downtown District
+                  <br />
                   City, State 12345
                 </span>
               </div>
@@ -70,19 +72,34 @@ export function Footer() {
           <div className="space-y-4">
             <h3 className="font-semibold text-foreground">Quick Links</h3>
             <div className="space-y-2">
-              <a href="#menu" className="block text-muted-foreground hover:text-primary transition-colors">
+              <a
+                href="#menu"
+                className="block text-muted-foreground hover:text-primary transition-colors"
+              >
                 Our Menu
               </a>
-              <a href="#about" className="block text-muted-foreground hover:text-primary transition-colors">
+              <a
+                href="#about"
+                className="block text-muted-foreground hover:text-primary transition-colors"
+              >
                 About Us
               </a>
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="block text-muted-foreground hover:text-primary transition-colors"
+              >
                 Online Ordering
               </a>
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="block text-muted-foreground hover:text-primary transition-colors"
+              >
                 Catering
               </a>
-              <a href="#" className="block text-muted-foreground hover:text-primary transition-colors">
+              <a
+                href="#"
+                className="block text-muted-foreground hover:text-primary transition-colors"
+              >
                 Gift Cards
               </a>
             </div>
