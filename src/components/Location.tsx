@@ -55,7 +55,7 @@ const outlets = [
   },
 ];
 
-const serviceIcons = {
+const serviceIcons: Record<string, React.ComponentType<{ className?: string }>> = {
   "Dine-in": Utensils,
   Takeout: Car,
   Delivery: Car,
