@@ -3,7 +3,22 @@ import { Badge } from "./ui/badge";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 
-const menuCategories = {
+type MenuItem = {
+  id: string;
+  name: string;
+  description: string;
+  price: string;
+  priceNote?: string;
+  image: string;
+  popular?: boolean; // <--- opsional
+};
+
+type MenuCategory = {
+  title: string;
+  items: MenuItem[];
+};
+
+const menuCategories: Record<string, MenuCategory> = {
   crispy: {
     title: "CHICKEN CRISPY",
     items: [
